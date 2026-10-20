@@ -1,0 +1,34 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.venv/
+venv/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Model files and downloaded weights
+*.gguf
+*.bin
+*.safetensors
+
+# Local data and logs
+data/*
+!data/.gitkeep
+logs/
+*.log
+
+# Test and coverage artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editors and operating system
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
